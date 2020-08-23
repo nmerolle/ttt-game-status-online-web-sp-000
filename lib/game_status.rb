@@ -8,16 +8,16 @@ WIN_COMBINATIONS = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4
 
 def won?(board)
   WIN_COMBINATIONS.each do |winner|
-    index_1 = winner[0]
-    index_2 = winner[1]
-    index_3 = winner[2]
+    index_1 = win[0]
+    index_2 = win[1]
+    index_3 = win[2]
     
     pos_1 = board[index_1]
     pos_2 = board[index_2]
     pos_3 = board[index_3]
     
     if pos_1 == pos_2&&pos_2==pos_3&&position_taken?(board, index_3)
-      return winner
+      return win
     end
   end
   false
@@ -47,4 +47,6 @@ def over?(board)
     return false
   end
 end
+
+winner
 
