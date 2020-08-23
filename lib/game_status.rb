@@ -24,6 +24,10 @@ def won?(board)
 end
 
 def full?(board)
-  board.each do 
+  board.each do |i|
+    if i==" "||i==""
+      false
+    else
+      true
   end
 end
