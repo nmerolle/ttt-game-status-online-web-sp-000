@@ -18,8 +18,7 @@ def won?(board)
     
     if pos_1 == pos_2&&pos_2==pos_3&&position_taken?(board, index_1)
       return winner
-    else
-      false
     end
   end
+  false
 end
