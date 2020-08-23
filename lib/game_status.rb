@@ -7,7 +7,7 @@ end
 WIN_COMBINATIONS = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]]
 
 def won?(board)
-  WIN_COMBINATIONS.each do |winner|
+  WIN_COMBINATIONS.each do |win|
     index_1 = win[0]
     index_2 = win[1]
     index_3 = win[2]
@@ -48,5 +48,6 @@ def over?(board)
   end
 end
 
-winner
+winner(board)
+  
 
