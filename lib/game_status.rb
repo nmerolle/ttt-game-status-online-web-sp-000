@@ -48,6 +48,11 @@ def over?(board)
   end
 end
 
-winner(board)
+def winner(board)
+  if won?(board)
+    token = win[0]
+  else winner(board)
+  end
+end
   
 
