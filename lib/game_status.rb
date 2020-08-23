@@ -37,7 +37,7 @@ def draw?(board)
     if !draw&&!won
       return true
     elsif draw == false
-      true
+      return true
     else return false
     end  
 end
