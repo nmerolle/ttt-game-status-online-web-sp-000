@@ -50,7 +50,7 @@ end
 
 def winner(board)
   if won?(board)
-    return board[index_3]
+    return board[won]
   end
 end
   
