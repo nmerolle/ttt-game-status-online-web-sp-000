@@ -12,7 +12,11 @@ def won?(board)
     index_2 = winner[1]
     index_3 = winner[2]
     
-    pos_1 = board[]
+    pos_1 = board[index_1]
+    pos_2 = board[index_2]
+    pos_3 = board[index_3]
+    
+    if pos_1 == pos_2&&pos_2==pos_3&&position_taken?(board, index_1)
       return winner
     else
       false
