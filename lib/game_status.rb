@@ -27,6 +27,6 @@ def full?(board)
   board.any? {|i| i == " "}
     false
     else
-      true
+    true
   end
 end
