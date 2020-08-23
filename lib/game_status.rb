@@ -50,7 +50,7 @@ end
 
 def winner(board)
   if won?(board)
-    token = win[0]
+    token = board[index_3]
   end
 end
   
