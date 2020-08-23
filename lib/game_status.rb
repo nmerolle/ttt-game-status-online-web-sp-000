@@ -45,10 +45,11 @@ end
 def over?(board)
   draw = draw?(board)
   won = won?(board)
+  full = full?(board)
   if draw||won
     return true
-  elsif 
-  
+  elsif !full&&!won
+    return false
   end
 end
 
