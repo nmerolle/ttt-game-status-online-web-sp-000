@@ -32,11 +32,11 @@ def full?(board)
 end
 
 def draw?(board)
-  draw = full?(board)
+  full = full?(board)
   won = won?(board)
-    if !draw&&!won
+    if !full&&!won
       return true
-    elsif draw&&!won
+    elsif full&&!won
       return true
     else return false
     end  
