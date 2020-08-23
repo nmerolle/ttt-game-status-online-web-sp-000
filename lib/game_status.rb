@@ -24,7 +24,7 @@ def won?(board)
 end
 
 def full?(board)
-  board.any? do |i|
+  board.any? {|i| i
     if i==" "||i==""
       false
     else
