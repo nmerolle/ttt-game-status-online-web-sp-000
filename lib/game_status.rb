@@ -26,6 +26,7 @@ end
 def full?(board)
   board.any? {|i| i==" "||i==nil}
     return false
-    else return true 
+    else 
+       true 
   end
 end
