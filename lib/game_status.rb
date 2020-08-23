@@ -31,3 +31,11 @@ def full?(board)
     end
 end
 
+def draw?(board)
+  draw = full?(board)
+    if !draw
+      return true
+    else return false
+    end  
+end
+
