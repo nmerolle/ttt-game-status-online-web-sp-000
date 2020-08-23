@@ -51,7 +51,6 @@ end
 def winner(board)
   if won?(board)
     token = win[0]
-  else winner(board)
   end
 end
   
