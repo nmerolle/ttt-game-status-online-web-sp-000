@@ -12,7 +12,7 @@ def won?(board)
     index_2 = winner[1]
     index_3 = winner[2]
     
-    pos1 = 
+    pos_1 = board[]
       return winner
     else
       false
