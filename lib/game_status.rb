@@ -36,8 +36,6 @@ def draw?(board)
   won = won?(board)
     if !draw&&!won
       return true
-    elsif draw == false
-      return true
     else return false
     end  
 end
