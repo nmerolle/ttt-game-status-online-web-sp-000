@@ -24,9 +24,8 @@ def won?(board)
 end
 
 def full?(board)
-  board.any? {|i| i
-    if i==" "||i==""
-      false
+  board.any? {|i| i == " "}
+    false
     else
       true
   end
